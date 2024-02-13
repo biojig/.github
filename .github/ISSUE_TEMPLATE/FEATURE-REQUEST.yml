@@ -7,26 +7,10 @@ labels: [
 assignees: 
   - SampleAssignee
 body:
-  - type: input
-    id: start_date
-    attributes:
-      label: "Start Date"
-      description: Start of development
-      placeholder: "YYYY-MM-DD"
-    validations:
-      required: false  
-  - type: input
-    id: target_date
-    attributes:
-      label: "Target Date"
-      description: Target completion date for development
-      placeholder: "YYYY-MM-DD"
-    validations:
-      required: false  
   - type: textarea
     id: summary
     attributes:
-      label: "Summary"
+      label: Summary
       description: Provide a brief explanation of the feature
       placeholder: Describe in a few lines your feature request
     validations:
@@ -41,4 +25,52 @@ body:
           - [ ] Verify the issue
           - [ ] Solve the issue
           - [ ] Test the solution
-          ```
+          ``` 
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: Importance and urgency from critical (P0) to not so urgent (P2)
+      options: 
+        - P0
+        - P1
+        - P2
+    validations:
+      required: true  
+  - type: dropdown
+    id: size
+    attributes:
+      label: Size
+      description: Estimate of the effort, complexity, or work
+      options: 
+        - XS
+        - S
+        - M
+        - L
+        - XL
+    validations:
+      required: true 
+  - type: input
+    id: estimate
+    attributes:
+      label: Estimate
+      description: Quanitification of the time in days
+      placeholder: "0"
+    validations:
+      required: true
+  - type: input
+    id: start_date
+    attributes:
+      label: Start Date
+      description: Start of development
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: input
+    id: target_date
+    attributes:
+      label: Target Date
+      description: Target completion date for development
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true 
