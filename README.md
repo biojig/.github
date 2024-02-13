@@ -307,3 +307,7 @@ Use this section to mention useful resources and libraries that you have used in
  - [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
  - [Readme Template](https://github.com/othneildrew/Best-README-Template)
 
+## :clown: Joke of the Day
+<!-- Markdown -->
+
+![Jokes Card](https://readme-jokes.vercel.app/api?hideBorder) 
