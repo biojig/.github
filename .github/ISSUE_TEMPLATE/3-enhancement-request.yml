@@ -1,8 +1,8 @@
-name: "💡 Feature Request"
+name: "💡 Enhancement Request"
 description: Create a new ticket for a new feature request
-title: "💡 [FEATURE REQUEST] - <title>"
+title: "🚀 [ENHANCEMENT REQUEST] - <title>"
 labels: [
-  "feature"
+  "enhancement"
 ]
 assignees: 
   - mshunjan
@@ -11,7 +11,7 @@ body:
     id: summary
     attributes:
       label: Summary
-      description: A clear and concise description of the feature you're interested in.
+      description: A clear and concise description of the enhancement you're interested in.
     validations:
       required: true
   - type: textarea
