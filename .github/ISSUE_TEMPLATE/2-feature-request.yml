@@ -5,7 +5,7 @@ labels: [
   "feature"
 ]
 assignees: 
-  - SampleAssignee
+  - mshunjan
 body:
   - type: textarea
     id: summary

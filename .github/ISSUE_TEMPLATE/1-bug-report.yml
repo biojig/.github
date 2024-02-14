@@ -5,7 +5,7 @@ labels: [
   "bug"
 ]
 assignees: 
-  - SampleAssignee
+  - mshunjan
 body: 
   - type: textarea
     id: current_behavior
