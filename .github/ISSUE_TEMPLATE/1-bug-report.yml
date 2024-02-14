@@ -27,8 +27,8 @@ body:
       label: Regression
       description: Is this a regression ?
       options:
-        - yes
-        - no
+        - "yes"
+        - "no"
     validations:
       required: true
   - type: textarea
