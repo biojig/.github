@@ -1,6 +1,6 @@
 name: "🚀 Enhancement Request"
 description: Create a new ticket for an enhancement
-title: "🚀 [ENHANCEMENT REQUEST] - <title>"
+title: "🚀 - <title>"
 labels: [
   "enhancement"
 ]
